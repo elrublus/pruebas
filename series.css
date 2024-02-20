@@ -1,0 +1,140 @@
+body {
+    background-image: url(azul.jpeg);
+    background-size: 1577px 3029px;
+    margin: 0;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+header {
+    background-color: rgba(54, 54, 228, 0.781);
+    padding: 10px 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 10px 15px rgb(54, 54, 228);
+    
+}
+header h1 {
+    color: rgb(124, 26, 26);
+}
+
+#subt {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    /*margin: 20px 650px;*/
+    border-style: solid;
+    border-color: rgb(71, 26, 85);
+    border-radius: 15px;
+    background-color: rgba(128, 255, 255, 0.747);
+    color: rgb(11, 105, 40);
+    width: 271px;
+    height: 58px;
+    position: relative;
+    left: 650px;
+}
+
+section div {
+    transition: box-shadow 0.25s ease;
+    border-style: solid;
+    border-color: rgb(52, 27, 66);
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(91, 183, 206, 0.897);
+    cursor: pointer;
+    width: 700px;
+    height: 675px;
+}
+
+section div:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.938);
+}
+
+.divi h3 {
+    text-align: center;
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: black 2px solid;
+}
+.divi h4 {
+    margin-bottom: 0;
+}
+
+.divi p {
+    margin-top: 10px;
+}
+
+.divi h4 {
+    margin-left: 40px;
+}
+
+.imagen {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 5px;
+    border: 2px black solid;
+}
+
+#scooby {
+    float: left;
+    margin: 0 25px 50px 25px;
+}
+
+#bob {
+    float: right;
+    margin: 0 25px 50px 25px;
+}
+
+#rick {
+    float: left;
+    margin: 0 25px 50px 25px;
+}
+
+#yugi {
+    float: right;
+    margin: 0 25px 50px 25px;
+}
+
+#goku {
+    float: left;
+    margin: 0 25px 50px 25px;
+}
+
+#arcane {
+    float: right;
+    margin: 0 25px 50px 25px;
+}
+
+footer {
+    background-color: rgba(15, 139, 63, 0.74);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 100px 0 50px rgb(6, 97, 35);
+    font-size: 20px;
+}
+footer div {
+    float: left;
+    margin-left: 50px;
+}
+footer a {
+    float: right;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#link  {
+    color: blueviolet;
+}
+
+#comen {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    width: 760px;
+    height: 600px;
+}
